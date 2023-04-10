@@ -4,7 +4,7 @@ I wanted to design a query language for an API that I was working on. However, I
 
 ## Overview
 
-The search query language is a simple language which uses a query string to search for records. The query string is parsed and converted into a query object which is then used to search for records. The language is designed to be simple and easy to use, and is structured being parsed to SQL.
+The search query language is a simple language which uses a query string to search for records. The query string is parsed and converted into a query object which is then used to generate SQL. The language is designed to be simple and easy to use, and it is targetted relational databases.
 For the sake of demonstration, the type of record we will be searching is a `url` record. A url record has the following fields:
 
 ```ts
